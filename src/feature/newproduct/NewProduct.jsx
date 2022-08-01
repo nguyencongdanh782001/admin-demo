@@ -675,7 +675,6 @@ const NewProduct = () => {
                     value={tags}
                     onChange={(e) => handleChangeTags(e)}
                     label="Thẻ tag"
-                    autoFocus
                   >
                     {searchList.listSearch.map((item, index) =>
                       item.listSearch.map((item1, index1) => (
